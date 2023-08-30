@@ -20,7 +20,34 @@ print(f"The area of the rectangle is {areaOfRectangle}.")
 num1 = int(input("Please enter the 1st number: "))
 num2 = int(input("Please enter the 2nd number: "))
 num3 = int(input("Please enter the 3rd number: "))
-sum = num1 + num2 + num3
+Sum = num1 + num2 + num3
 product = num1 * num2 * num3
-average = sum / 3
-print(f"The ")
+average = Sum / 3
+print(f"The sum of the numbers is {Sum}.")
+print(f"The product of the numbers is {product}.")
+print(f"The average of the numbers is {average}.")
+########################################
+# Question 5
+talents = float(input("Enter talents: \n\n"))
+pounds = float(input("Enter pounds: \n\n"))
+lots = float(input("Enter lots: \n\n"))
+
+g = 13.3 * (32 * (20 * talents + pounds) + lots)
+kilograms = int(g / 1000)
+grams = round(g - 1000 * kilograms, 2)
+
+print(f"The weight in modern units:\n{kilograms} kilograms and {grams} grams.")
+########################################
+# Question 6
+import random
+
+code1digit1 = str(random.randint(0, 9))
+code1digit2 = str(random.randint(0, 9))
+code1digit3 = str(random.randint(0, 9))
+print(f"The 3-digit code is {code1digit1 + code1digit2 + code1digit3}")
+
+code2digit1 = str(random.randint(1, 6))
+code2digit2 = str(random.randint(1, 6))
+code2digit3 = str(random.randint(1, 6))
+code2digit4 = str(random.randint(1, 6))
+print(f"The 3-digit code is {code2digit1 + code2digit2 + code2digit3 + code2digit4}")
