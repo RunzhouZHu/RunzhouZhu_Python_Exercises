@@ -1,10 +1,10 @@
-#sum substract multiply division 
-#sum
-def sum(a,b,c):
-    sum = a + b + c
-    return sum
+#Question 1
+from random import Random
 
-def sub(a,b,c):
-    sub = a - b - c
-    return sub
 
+def rollDice():
+    a = Random.randint(1, 6)
+    return a
+
+
+    
