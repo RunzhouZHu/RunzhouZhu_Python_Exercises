@@ -1,4 +1,3 @@
-'''
 #Question 1
 import random
 
@@ -30,7 +29,7 @@ numbers.sort(reverse=True)
 while i < 5:
     print(numbers[i])
     i = i + 1
-'''
+
 ########################################
 #Question 3
 integer = int(input("Please enter a interger: "))
@@ -43,7 +42,13 @@ while i < integer:
     else:
         print("This is a prime number.")
         break
-    
+
 ########################################
 #Question 4
-
+cityNames = []
+for x in range(5):
+    x = input("Please enter the name: ")
+    cityNames.append(x)
+    
+for y in cityNames:
+    print(y)
