@@ -42,18 +42,23 @@ while True:
 ''' 
 ########################################
 #Question 4
-def sumList(x):
-    sum = 0
-    for a in x:
-        sum = sum + a
-        
-    return sum
+def sumOfList(lst):
+    return sum(lst)
 
-x = []
-a = 0
-while a >= 0:
-    a = int(input("Creating list, please enter the number: "))
-    x.append(a)
+lst = [1, 2, 3, 4, 5]
+total = sumOfList(lst)
+print("The sum of the list is:", total)
+
+########################################
+#Question 5
+def removeOddNumbers(lst):
     
-print(sumList(x))
-#12312312312
+    return [num for num in lst if num % 2 == 0]
+
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print("Original list:", lst)
+even_lst = removeOddNumbers(lst)
+print("List with odd numbers removed:", even_lst)
+
+########################################
+#Question 6
