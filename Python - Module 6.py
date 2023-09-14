@@ -39,7 +39,7 @@ while True:
         break
     y = unitConvert(x)
     print(y)
-''' 
+
 ########################################
 #Question 4
 def sumOfList(lst):
@@ -59,6 +59,24 @@ lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print("Original list:", lst)
 even_lst = removeOddNumbers(lst)
 print("List with odd numbers removed:", even_lst)
-
+'''
 ########################################
 #Question 6
+def pizzaCalculator(diameter, price):
+    unitPrice = price/(3.14*(diameter/2)**2)
+    return unitPrice
+
+diameter1 = float(input("Please enter the diameter of first pizza: "))
+price1 = float(input("Please enter the price of first pizza: "))
+diameter2 = float(input("Please enter the diameter of second pizza: "))
+price2 = float(input("Please enter the price of second pizza: "))
+
+unitPrice1 = pizzaCalculator(diameter1,price1)
+unitPrice2 = pizzaCalculator(diameter2,price2)
+
+if unitPrice1 > unitPrice2:
+    print("The first pizza provides better value for money.")
+elif unitPrice1 < unitPrice2:
+    print("The second pizza provides better value for money.")
+elif unitPrice1 == unitPrice2:
+    print("The two pizza provides the same value for money.")
