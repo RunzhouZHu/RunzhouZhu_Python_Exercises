@@ -4,3 +4,5 @@
 
 /.vs
 /.gitignore
+*.py
+/.gitignore

@@ -1,4 +1,4 @@
-'''
+
 #Question 1
 seasons = ("spring", "summer", "autumn", "winter")
 def find_season(month):
@@ -33,7 +33,7 @@ while True:
         break
     else:
         add_name(i,names)
-'''    
+
 ########################################
 #Question 3
 def new_airport(ICAO,name,airports):
