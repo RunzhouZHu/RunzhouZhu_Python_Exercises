@@ -66,7 +66,10 @@ while True:
     elif i == '2':
         print("\nFetch information: ")
         ICAO = input("Please enter the ICAO code: ")
-        print(f"The airport is {fetch_airport(ICAO,airports)}.")
+        if ICAO in airports:
+            print(f"The airport is {fetch_airport(ICAO,airports)}.")
+        else:
+            print("ICAO not exists.")
         
     else:
         print("END")
