@@ -32,11 +32,9 @@ while i < 5:
 
 ########################################
 #Question 3
-integer = int(input("Please enter a interger: "))
-i = 1
-while i < integer:
-    i = i + 1
-    if integer % i == 0:
+n = int(input("Please enter a interger: "))
+for x in range(2,n-1):
+    if n % x == 0:
         print("This is not a prime number.")
         break
     else:
