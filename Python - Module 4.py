@@ -18,19 +18,18 @@ while True:
 
 ########################################
 #Question 3
-i = input("Please enter a number: ")
-max = i
-min = i
+max = float()
+min = float()
 while True:
-    i = input("Please enter a number: ")
+    i = input("Enter: ")
     if i == '':
+        print(f"The program ends, the largest is {max}, the smallest is {min}.")
         break
-    if i > max:
-        max = i
-    if i < min:
-        min = i
-        
-print(f"The program ends, the largest is {max}, the smallest is {min}.")
+    else:
+        if float(i) > max:
+            max = float(i)
+        elif float(i) < min:
+            min = float(i)        
 
 ########################################
 #Question 4
