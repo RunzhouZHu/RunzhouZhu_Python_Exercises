@@ -1,4 +1,4 @@
-'''
+
 #Question 1
 import mysql.connector
 
@@ -54,7 +54,7 @@ def getAirportType(areaCode):
 
 areaCode = input("Please enter the area code: ")
 getAirportType(areaCode)
-'''
+
 ########################################
 # Question 3
 from geopy import distance
@@ -82,7 +82,9 @@ def getDistance(ICAO1, ICAO2):
     return distance.distance(result1,result2)
 
 
-print(getDistance('00A','00AA'))
+areaCode1 = input("Please enter the first area code: ")
+areaCode2 = input("Please enter the second area code: ")
+print(getDistance(areaCode1,areaCode2))
 
     
 
