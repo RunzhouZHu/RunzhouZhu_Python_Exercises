@@ -118,7 +118,7 @@ newBuilding.run_elevator(7)
 newBuilding.fire_alarm()
 '''
 ########################################
-#Question 3
+#Question 4
 import random
 
 
