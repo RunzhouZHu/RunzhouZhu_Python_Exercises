@@ -1,4 +1,4 @@
-﻿'''
+﻿
 #Question 1
 class Publication:
     def __init__(self, name):
@@ -26,7 +26,7 @@ book = Book('Compartment No. 6', 'Rosa Liksom', 192)
 
 magazine.print_information()
 book.print_information()
-'''
+
 ########################################
 #Question 2
 import random
