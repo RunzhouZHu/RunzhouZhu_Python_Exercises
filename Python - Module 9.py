@@ -1,4 +1,4 @@
-'''
+
 #Question 1
 class Car:
     def __init__(self, registrationNumber, maximumSpeed):
@@ -71,7 +71,7 @@ newCar.travelledDistance = 2000
 newCar.currentSpeed = 60
 newCar.drive(1.5)
 print(f"The travelled distance is {newCar.travelledDistance}.")
-'''
+
 ########################################
 #Question 4
 class Car:

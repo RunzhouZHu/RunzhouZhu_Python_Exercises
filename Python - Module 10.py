@@ -1,4 +1,4 @@
-'''
+
 #Question 1
 class Elevator:
     def __init__(self, bottomFloor, topFloor):
@@ -116,7 +116,7 @@ class Building:
 newBuilding = Building(1,10,3)
 newBuilding.run_elevator(7)
 newBuilding.fire_alarm()
-'''
+
 ########################################
 #Question 4
 import random
