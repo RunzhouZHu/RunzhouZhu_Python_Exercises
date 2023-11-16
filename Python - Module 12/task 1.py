@@ -1,5 +1,3 @@
-
-# Question 1
 import requests
 
 
@@ -7,8 +5,5 @@ import requests
 request = "https://api.chucknorris.io/jokes/random"
 respones = requests.get(request).json()
 print(respones["value"])
-
-########################################
-# Question 2
 
 
